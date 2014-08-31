@@ -4,7 +4,7 @@
 
 int main(void) 
 {
-	const char* lib_path = "/home/meconin/bokai/dlso/lib/libtest.so";
+	const char* lib_path = "./lib/libtest.so";
 	const char* fuc_name = "cos";
 	double (*cosine)(double);   /* 指向 shared library 裡的函數 */
 
